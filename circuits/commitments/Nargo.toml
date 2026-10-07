@@ -1,0 +1,8 @@
+[package]
+name = "commitments"
+type = "bin"
+authors = ["VeilReceipt contributors"]
+compiler_version = ">=0.36.0"
+
+[dependencies]
+schema = { path = "../schema" }

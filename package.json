@@ -1,0 +1,48 @@
+{
+  "name": "veilreceipt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.mjs",
+    "build": "vite build",
+    "compile": "node scripts/compile.mjs",
+    "setup": "node scripts/setup.mjs",
+    "test": "node --test --test-concurrency=1 tests/protocol.test.mjs",
+    "bootstrap": "node scripts/bootstrap.mjs",
+    "agent": "node scripts/agent-demo.mjs",
+    "start": "NODE_ENV=production node server/index.mjs",
+    "test:stage": "node scripts/stage-check.mjs",
+    "test:model": "node --test tests/model.test.mjs",
+    "test:rehearsal": "node scripts/rehearsal.mjs",
+    "check:publication": "node scripts/check-publication.mjs"
+  },
+  "dependencies": {
+    "@aztec/bb.js": "4.1.1",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/space-grotesk": "^5.3.0",
+    "@noir-lang/noir_js": "1.0.0-beta.19",
+    "@openzeppelin/contracts": "5.4.0",
+    "compression": "1.8.2",
+    "ethers": "6.17.0",
+    "express": "5.1.0",
+    "ganache": "7.9.2",
+    "lucide-react": "0.468.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "solc": "0.8.30",
+    "vite": "7.3.7"
+  },
+  "devDependencies": {
+    "axe-core": "^4.14.0",
+    "lighthouse": "^13.5.0",
+    "sharp": "0.35.5"
+  },
+  "overrides": {
+    "tmp": "0.2.7"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "MIT"
+}

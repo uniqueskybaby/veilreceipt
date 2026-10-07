@@ -1,0 +1,21 @@
+# Dependencies, builds and private local runtime
+node_modules/
+dist/
+.runtime/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.zip
+.DS_Store
+circuits/*/target/
+artifacts/
+
+# Local design explorations and historical working documents stay on this machine.
+/design-qa.md
+/docs/*
+!/docs/ARCHITECTURE.zh-CN.md
+!/docs/REVIEW.zh-CN.md
+!/docs/screenshots/

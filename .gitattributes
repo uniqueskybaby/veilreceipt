@@ -1,0 +1,4 @@
+contracts/Verifier.sol linguist-generated=true -whitespace
+*.png binary
+*.webp binary
+*.woff2 binary
