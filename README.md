@@ -14,6 +14,8 @@ VeilReceipt 为 AI Agent 购买的数据服务生成可独立核验的交付凭�
 
 本仓库提供真实 Noir / UltraHonk 证明、Solidity 验证器、托管合约、本地 EVM、Agent 工具客户端和中文演示网站。数据为合成样本，资金为本地测试 ETH；真实 Provider、公共测试网和 ERC-8004 是后续接入方向。
 
+第一次使用请阅读 [操作指南](docs/USER_GUIDE.zh-CN.md)；需要讲解原理或接手开发时，阅读与操作编号一一对应的 [操作背后的技术](docs/OPERATIONS_TECHNICAL.zh-CN.md)。
+
 ## 从源码启动
 
 需要 Node.js 22.12+（推荐 Node 24）、npm、Git、tar；macOS 或 Linux，Windows 请使用 WSL。首次准备需要联网下载官方 Nargo 和公开 SRS。

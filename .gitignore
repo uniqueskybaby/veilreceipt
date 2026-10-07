@@ -18,4 +18,6 @@ artifacts/
 /docs/*
 !/docs/ARCHITECTURE.zh-CN.md
 !/docs/REVIEW.zh-CN.md
+!/docs/USER_GUIDE.zh-CN.md
+!/docs/OPERATIONS_TECHNICAL.zh-CN.md
 !/docs/screenshots/
